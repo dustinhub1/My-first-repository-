@@ -32,7 +32,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - MetricBeat helps you monitor your servers by collecting metrics from the system and services running on the server.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function   | IP Address | Operating System |
 |----------|------------|------------|------------------|
@@ -62,11 +61,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
-
-This allows redundant installation across multiple servers that can be back ups of each other. We can be certain all of the servers have the same installation and we don't have to connect to each one separately to do so.
-
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because this allows redundant installation across multiple servers that can be back ups of each other. We can be certain all of the servers have the same installation and we don't have to connect to each one separately to do so.
 
 
 The playbook implements the following tasks: Install docker Install python3 Install Docker pip Download Docker image Enable Docker
