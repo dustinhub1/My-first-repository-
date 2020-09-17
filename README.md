@@ -89,5 +89,3 @@ SSH into the control node and follow the steps below:
 - Update the config file to include the private IP of the Elk server as well as the Elastic Search and Kibana host IP
 - Update Hosts file located in /etc/ansible/hosts and include include the IPs of the machines you wish to install to. Specify where either elk or webservers respectively.
 - Run the playbook, and navigate to to ElkMachinePublicIP:5601  to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
